@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: #6564af;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background: white;
+  margin: 2vw;
+  padding: 10px;
+  color: black;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.fa-quote-left{
+  margin-right: 5px;
+}
+
+h1{
+  text-align: center;
+}
+
+.fa-quote-right{
+  margin-left: 5px;
+}
+
+.quote p{
+  display: inline-block;
+}
+
+hr{
+  margin: 10px auto;
+  width: 70%;
+  display: block;
+  border-bottom: none;
+}
+
+.tools{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tools i{
+  border: 1px solid #6564af;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align-last: center;
+  padding-top: 10px;
+  color: #6564af;
+}
+
+button{
+  background: #6564af;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 1rem;
+}
+
+.active{
+  pointer-events: none;
+  background: red;
+}

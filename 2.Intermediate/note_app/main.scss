@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+
+/* Colors */
+$bg-primary:#F2EBE9;
+$bg-secondary:#8CC0DE;
+$text-primary:#243A73;
+$text-secondary:#14C38E;
+$light:whitesmoke;
+$dark:#222;
+
+/* Fonts */
+$font-primary:'Baloo 2', cursive;
+$font-secondary:'Source Sans Pro', sans-serif;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: $bg-secondary;
+}
+
+.title{
+  font-family: $font-secondary;
+  color: red;
+  text-align: center;
+}
+
+.addNote{
+  background: #354259;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.3rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.note-container{
+  margin: 2vw;
+  padding: 10px;
+    .note{
+      /* border: 2px solid red; */
+      /* background: red; */
+      /* height: 250px; */
+      margin: 10px 0;
+        .note-header{
+          background: $dark;
+          color: $text-secondary;
+          padding: 5px;
+          display: flex;
+          justify-content: end;
+            .tools{
+              i{
+                margin: 0 3px;
+              }
+            }
+        }
+        .note-content{
+          /* height: 200px; */
+            textarea{
+              width: 100%;
+              border: none;
+              outline: 0;
+              resize: none;
+              height: 100%;
+              font-size: 1.3rem;
+              font-weight: bold;
+              font-family: $font-secondary;
+              padding: 0 2px;
+              background: light;
+              color: $text-primary;
+            }
+        }
+    }
+}

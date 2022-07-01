@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo 2', cursive;
+}
+
+body{
+  background: #C2DED1;
+}
+
+.container{
+  margin: 5vw;
+  background: #354259;
+  color: white;
+  padding: 10px;
+}
+
+form{
+  background: #3C2C3E;
+  margin: 5vw;
+  padding: 10px;
+}
+
+form input{
+  width: 100%;
+  background: #F9F9F9;
+  border: none;
+  color: red;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 7px;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 0 6px;
+}
+
+form button{
+  background: cyan;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  border: none;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+p{
+  margin: 6px 0;
+}
+
+#fName,#username{
+  color: red;
+  background: black;
+  padding: 0 6px;
+  opacity: 0;
+  transition: 0.5s;
+  border-radius: 7px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="theme-color" content="#222">
+ <meta charset="UTF-8">  
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <meta name="author" content="fazle-rabbi">
+ <!-- FONTAWESOME KIT -->
+ <script src="https://kit.fontawesome.com/2982aea746.js" crossorigin="anonymous"></script>
+ <title>Music Player App</title>
+ <link rel="stylesheet" href="main.css" title="" type="" />
+</head>
+<body>
+ 
+ <div class="container">
+  <div class="heading">
+    <h2 class="songName">Lorem Ipsum</h2>
+    <span>Fazle Rabbi</span>
+  </div>
+  <img class="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1d0-ylmmuvArFFoHPVQVHsddWlC1UouCluoGOxqYUem53Ij5e5OLj94U8&s=10" alt="" />
+   <div class="progress">
+    <div class="time">
+      <p class="currDu">00:00</p>
+      <p class="totalDu">00:00</p>
+    </div>
+    <div class="progressDiv">
+      <div class="progressbar" id="progress"></div>
+    </div>
+  </div>
+   <div class="music-control">
+     <div class="navigation">
+       <i onclick="prevMusic()" class="fa fa-caret-left"></i>
+       <i onclick="seekNeg()" class="fas fa-backward"></i>
+       <i onclick="playMusic()" class="fas fa-play"></i>
+       <i onclick="seekPlus()" class="fas fa-forward"></i>
+       <i onclick="nextMusic()" class="fa fa-caret-right"></i>
+     </div>
+   </div>
+ </div>
+ 
+<!-- Js Link -->
+<script src="main.js" type="text/javascript" charset="utf-8"></script>  
+</body>
+</html>

@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Sans-Serif;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.container{
+  margin: 10px;
+  /* border: 2px solid red; */
+  background: #3bff90;
+  padding: 10px;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  height: 50px;
+  width: 70px;
+  background: black;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col1,.col12,.col3,.col4{
+  margin: 10px;
+}

@@ -1,0 +1,45 @@
+*{
+  
+}
+body{
+  
+}
+h1{
+  text-align: center;
+  color: purple;
+}
+.start{
+  background: deeppink;
+  color: white;
+  height: 40px;
+  width: 140px;
+  border-radius: 7px;
+  border: 2px solid white;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.quiz-container{
+  background: #DFDFDE;
+  padding: 10px;
+  color: #222;
+  border-radius: 6px;
+  margin: 5px 15px;
+  display: none;
+}
+.quiz-container label{
+  display: block;
+  
+}
+.next{
+  background: violet;
+  color: black;
+  height: 40px;
+  width: 140px;
+  display: block;
+  border-radius: 7px;
+  font-size: 1.4rem;
+  margin: 6px auto;
+  border: none;
+}

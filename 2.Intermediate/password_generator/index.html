@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="theme-color" content="#222">
+ <meta charset="UTF-8">  
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <meta name="author" content="fazle-rabbi">
+ <!-- FONTAWESOME KIT -->
+ <script src="https://kit.fontawesome.com/2982aea746.js" crossorigin="anonymous"></script>
+ <title>Password Generator</title>
+ <link rel="stylesheet" href="main.css" title="" type="" />
+</head>
+<body>
+ 
+ <h1 class="title">Password Generator</h1>
+ 
+ <div class="container">
+   <div class="input">
+     <input id="display" type="text" name="" value="" />
+   </div>
+   <div class="row">
+     <div class="">
+       <span>Password length</span>
+       <input type="number" name="" id="passLength" value="8" max="10" min="6"/>
+     </div>
+     <div class="">
+       <span>Uppercase</span>
+       <input type="checkbox" name="" id="uppercase" value="" />
+     </div>
+     <div class="">
+       <span>Lowercase</span>
+       <input type="checkbox" name="" id="lowercase" />
+     </div>
+     <div class="">
+       <span>Numbers</span>
+       <input type="checkbox" name="" id="numbers" />
+     </div>
+     <div class="">
+       <span>Symbols</span>
+       <input type="checkbox" name="" id="symbols" />
+     </div>
+     <div class="">
+       <button id="generateBtn" type="submit">Generate Password</button>
+     </div>
+   </div>
+ </div>
+ 
+ <h2 class="error">Please choose at least one password format!</h2>
+ 
+<!-- Js Link -->
+<script src="main.js" type="text/javascript" charset="utf-8"></script>  
+</body>
+</html>

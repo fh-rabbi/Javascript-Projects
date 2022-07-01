@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: #C6DCE4;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+}
+
+.container{
+  box-sizing: border-box;
+  margin: 2vw;
+  padding: 10px;
+  background: #22a6b3;
+  color: white;
+}
+
+.form{
+  width: 100%;
+}
+
+input{
+  width: 100%;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 7px;
+  outline: 0;
+  padding: 3px 6px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#msg{
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  opacity: 0;
+}
+
+#check{
+  background: #30336b;
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: white;
+  border: 1px dotted white;
+}

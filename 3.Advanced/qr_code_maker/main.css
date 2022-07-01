@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: #C6DCE4;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main{
+  background: #05595B;
+  color: white;
+  /* margin: 0 2vw; */
+  padding: 10px;
+  border-radius: 6px;
+  width: 80%;
+  height: 200px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+input,button{
+  width: 100%;
+  margin: 3px 0;
+  height: 50px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+input{
+  border: 1px solid white;
+  background: none;
+  color: white;
+  padding: 0 6px;
+}
+
+button{
+  background: white;
+  color: #05595B;
+  border: none;
+}
+
+.qr-box{
+  margin-top: 20px;
+  border: 3px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  transition: opacity .4s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.qr-box img{
+  width: 80%;
+}
+
+.qr-box.active{ 
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* popup box */
+.popup{
+  background: black;
+  color: deeppink;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+  width: 80%;
+  border-radius: 7px;
+  position: absolute;
+  transform: opacity .5s ease-in;
+  top: -30px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.show-popup{
+  top: 20px;
+  opacity: 1;
+  animation: anim 1s ease;
+}
+
+@keyframes anim{
+  0%{
+    top: 0;
+  }
+  50%{
+    top: 15px;
+  }
+  100%{
+    top: 0;
+  }
+}

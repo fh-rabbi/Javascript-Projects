@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap");
+/* Colors */
+/* Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8CC0DE;
+}
+
+.title {
+  font-family: "Source Sans Pro", sans-serif;
+  color: red;
+  text-align: center;
+}
+
+.addNote {
+  background: #354259;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.3rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.note-container {
+  margin: 2vw;
+  padding: 10px;
+}
+.note-container .note {
+  /* border: 2px solid red; */
+  /* background: red; */
+  /* height: 250px; */
+  margin: 10px 0;
+}
+.note-container .note .note-header {
+  background: #222;
+  color: #14C38E;
+  padding: 5px;
+  display: flex;
+  justify-content: end;
+}
+.note-container .note .note-header .tools i {
+  margin: 0 3px;
+}
+.note-container .note .note-content {
+  /* height: 200px; */
+}
+.note-container .note .note-content textarea {
+  width: 100%;
+  border: none;
+  outline: 0;
+  resize: none;
+  height: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0 2px;
+  background: light;
+  color: #243A73;
+}
+
+/*# sourceMappingURL=main.css.map */

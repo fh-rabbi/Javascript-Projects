@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: whitesmoke;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+}
+
+.container{
+  margin: 2vw;
+  padding: 10px;
+}
+
+.item{
+  background: white;
+  color: black;
+  padding: 10px;
+  /* border-radius: 6px; */
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+  position: relative;
+  box-shadow: 0px 2px 15px -2px rgba(0,0,0,0.79);
+}
+
+p{
+  color: rgb(0,150,139);
+}
+
+.active::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  background: rgb(0,150,139);
+  height: 2px;
+  animation: 1s bLine ease-in-out forwards;
+}
+
+@keyframes bLine{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i{
+  font-size: 1.2rem;
+}
+
+.content{
+  display: none;
+}
+
+.active{
+  display: block;
+}
+
+.fa-xmark{
+  display: none;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}

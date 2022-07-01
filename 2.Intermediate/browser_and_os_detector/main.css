@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: #C6DCE4;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  margin: 3vw;
+  padding: 30px 10px;
+  background: #030303;
+  color: white;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.br,.os{
+  color: deeppink;
+}

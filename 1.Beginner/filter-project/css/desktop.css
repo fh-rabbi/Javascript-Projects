@@ -1,0 +1,232 @@
+/*text-align,left,right,center,font,font-weight,font-size,font-family,bold,bolder,lighter,color,green,brown,red,yellow,pink,deeppink,hotpink,cyan,gray,black,purple,violet,background-color,background,padding,margin border box-shadow px 10px 5px 7px line-height width height font-style italic normal text-decoration text-transform text-indentation letter spacing word spacing text-shadow border border-radius bottom top table-style POSITION: position relative absolute fixed sticky display block inline-block flex flex-wrap wrap nowrap justify-content align-items float grid grid-template-columns grid-template-row grid-gap html scroll-behavior smooth none 2px solid dotted dashed gradient rem */
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   text-decoration:none;
+}
+
+:root{
+   --maincolor:hotpink;
+}
+
+body{
+   background:url('img/headerBcg.jpeg') no-repeat fixed;
+   background-size:cover;
+}
+
+header{
+   background:white;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   padding:20px;
+}
+
+.left-column{
+   flex:50%;
+}
+
+.right-column{
+   flex:50%;
+   text-align:right;
+}
+
+.right-column i{
+   color:var(--maincolor);
+}
+
+.menu{
+   background:white;
+   margin-top:-10px;
+   padding:20px;
+   display:none;
+}
+
+.menu a{
+   display:block;
+   text-decoration:none;
+   margin-left:;
+   color:var(--maincolor);
+   font-size:1.4rem;
+   font-family:cursive;
+   margin-bottom:10px;
+   font-weight:bold;
+}
+
+/*  */
+.header-title{
+   text-align:center;
+   padding-top:;
+   margin-top:120px;
+   margin-bottom:240px;
+}
+
+.header-title h1{
+   color:white;
+   font-size:3rem;
+   font-family:cursive;
+   font-weight:bolder;
+}
+
+.header-title h1 span{
+   color:var(--maincolor);
+   font-weight:bold;
+   font-family:cursive;
+   font-size:4rem;
+}
+
+.header-title button{
+   border:2px solid black;
+   padding:10px;
+   background:transparent;
+   border-radius:3px;
+   font-family:cursive;
+   font-weight:bolder;
+   font-size:1.7rem;
+}
+
+.header-title button:hover{
+   background:black;
+   color:var(--maincolor);
+}
+
+
+.about{
+   background:white;
+   padding:30px;
+   
+}
+
+.about h1{
+   font-family:cursive;
+   font-size:3rem;
+   font-weight:bolder;
+}
+
+.about h1 span{
+   color:var(--maincolor);
+}
+
+.about p{
+   font-family:cursive;
+   font-weight:;
+   font-size:1.6rem;
+}
+
+.about button{
+   background:transparent;
+   border:2px solid black;
+   padding:3px 10px;
+   font-size:1.6rem;
+   font-family:cursive;
+   font-weight:bold;
+   width:130px;
+   border-radius:3px;
+}
+
+.about button:hover{
+   background:black;
+   color:var(--maincolor);
+}
+
+.about img{
+   margin:80px 0;
+   border:10px solid #DFDA5C;
+}
+
+/* Main Section Start Here */
+
+.main{
+   background:whitesmoke;
+   margin:0;
+   padding:100px 0;
+   text-align:center;
+}
+
+.main h1{
+   font-family:cursive;
+   font-size:3rem;
+   font-weight:bold;
+}
+
+.main h1 span{
+   color:var(--maincolor);
+   font-size:5rem;
+   font-weight:bolder;
+}
+
+.main .btn{
+   padding:10px 30px;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-between;
+   
+}
+
+.main .btn > button{
+   background:transparent;
+   color:black;
+   padding:5px 15px;
+   margin:4px;
+   border-radius:5px;
+   border:2px solid black;
+}
+
+.main .btn > button:hover{
+   background:black;
+   color:var(--maincolor);
+   border:;
+}
+
+.main form{
+   width:100%;
+}
+
+.main form i{
+   background:var(--maincolor);
+   padding:10px;
+   border:2px solid gray;
+   float:;
+   margin-right:-5px;
+}
+
+.main form input{
+   padding:10px;
+   border:1px solid gray;
+   outline:0;
+   border-radius:2px;
+}
+
+/* Card Item */
+.my-card-container{
+   width:100%;
+   margin:;
+}
+
+.card{
+   width:100%;
+}
+
+.card h2{
+   font-size:;
+   font-weight:bold;
+   font-family:cursive;
+}
+
+.card img{
+   width:100%;
+}
+
+/*.card img:hover{
+   transition:1s;
+   transform:scale(1.1);
+   width:110%;
+}*/
+
+
+
+
+
+

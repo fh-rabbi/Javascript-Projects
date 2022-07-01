@@ -1,0 +1,25 @@
+body{
+  background: #9228;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+div{
+  text-align: center;
+}
+button{
+  background: gray;
+  border: 2px solid white;
+  color: white;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 2rem;
+}

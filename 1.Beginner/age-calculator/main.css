@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Koulen', cursive;
+}
+body{
+  background: #333;
+  color: #222;
+}
+header{
+  background: pink;
+  padding: 10px;
+}
+header h1{
+  color: indigo;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.container{
+  background: white;
+  color: purple;
+  /* width: 100%; */
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.container input{
+  /* width: 80%; */
+  height: 40px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background: transparent;
+  text-align: center;
+}
+.container label{
+  text-align: left;
+}
+#calculate{
+  display: block;
+  margin: 0 auto;
+  padding: 7px 16px;
+  border-radius: 6px;
+  background: yellow;
+  color: #222;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+}
+.showAge{
+  color: cyan;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 6px 0;
+  font-family: 'Lato', sans-serif;
+}

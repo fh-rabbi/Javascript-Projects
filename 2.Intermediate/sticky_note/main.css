@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: #C6DCE4;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+}
+
+.container{
+  margin: 2vw;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 7px;
+}
+
+.title{
+  color: red;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+.create,.delete{
+  background: yellow;
+  color: black;
+  height: 40px;
+  display: block;
+  width: 60%;
+  border: 3px dotted black;
+  font-weight: bold;
+  margin: 5px auto;
+  border-radius: 20px;
+}
+
+.delete{
+  background: lime;
+}
+
+.note-creator{
+  margin: 4vw;
+  background: black;
+  padding: 10px;
+  border-radius: 7px;
+  position: relative;
+  display: none;
+}
+
+.box{
+  width: 100%;
+}
+
+#text{
+  width: 100%;
+  margin-top: 20px;
+  height: 200px;
+  outline: 0;
+  border: 2px solid #2222;
+  resize: none;
+  padding: 2px 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+i{
+  font-size: 1.2rem;
+  color: red;
+}
+
+.check{
+  position: absolute;
+  top: 4px;
+  right: 30px;
+}
+
+.xmark{
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+
+.sticky-notes{
+  border: red;
+  margin: 2vw;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note{
+  margin: 5px;
+  width: 30%;
+  background: purple;
+  color: white;
+  padding: 10px;
+  height: 170px;
+  border-radius: 8px;
+  overflow: auto;
+  transition: 0.5s;
+  /* transform: rotate(3deg); */
+}
+
+.note-text{
+  font-weight: bold;
+  font-family: 'Mali', cursive;
+  font-size: .8rem;
+}
+
+/* POPUP BOX */
+.popup-container{
+  height: 100vh;
+  width: 100%;
+  background: rgb(96, 111, 140,.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s linear;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.popup-box{
+  width: 80%;
+  background: #354259;
+  padding:10px;
+  position: relative;
+  height: 150px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.popup-box h3{
+  color: white;
+}
+
+.popup-box p{
+  color: yellow;
+}
+
+.popup-box i{
+  font-size: 2rem;
+  position: absolute;
+  right: 7px;
+  top: 5px;
+  color: white;
+}

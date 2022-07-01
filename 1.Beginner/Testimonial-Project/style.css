@@ -1,0 +1,49 @@
+/* text-align,center,left,justify,background,color,padding,border,radius,box-shadow,linear,gradient,shadow,margin-top,bottom,left,right,
+height,width,position,relative,display,flex,grid,start,end,center,justify,content,align,padding,margin,none,block,inline-block,indian-red,green,red,pink,deeppink,hotpink,cyan,coral,blue,orange,azure,white,whitesmoke,10px,5px,7px,2rem,1rem,1.3rem,1.5rem,rem,text,div,
+,absolute
+
+ */
+ 
+ body{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('img/bg2.jpeg')center/cover no-repeat fixed;
+}
+ 
+ .myCARD{
+    background:;
+    border:2px solid white;
+    height:;
+    width:100%;
+    margin:5px;
+    position:relative;
+ }
+ 
+ #main{
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+    
+ }
+ 
+ img{
+    position:absolute;
+    top:1%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

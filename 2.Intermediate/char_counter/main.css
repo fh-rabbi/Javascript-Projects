@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Baloo 2', cursive;
+}
+
+.container{
+  margin: 3vw;
+  background: #ee5253;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+textarea{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid black;
+  outline: 0;
+  padding: 3px 4px;
+  border-radius: 7px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+p{
+  font-size: 2rem;
+  color: whitesmoke;
+  font-weight: bold;
+}

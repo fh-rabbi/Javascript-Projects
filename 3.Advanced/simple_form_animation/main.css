@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: #C6DCE4;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  background: seagreen;
+}
+
+.name-field,
+.email-field,
+.password-field,
+.finish-field{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  height: 60px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.name-field i,
+.email-field i,
+.password-field i,
+.finish-field i{
+  padding: 10px;
+}
+
+input{
+  height: 90%;
+  border: 1px solid whitesmoke;
+  outline: none;
+  padding: 0 5px;
+  font-size: 17px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.innactive{
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%,50%);
+}
+
+.active{
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(-50%,-50%);
+}
+
+
+@keyframes shake{
+  0%{
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+  50%{
+    transform: translate(-50%,50%) rotate(10deg);
+  }
+  100%{
+    transform: translate(-50%,-50%) rotate(0deg);
+  }
+}

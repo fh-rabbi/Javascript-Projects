@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: #02a9d7;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  margin: 2vw;
+  color: white;
+  padding: 30px 10px;
+  width: 100%;
+}
+
+.select-btn{
+  width: 100%;
+  background: white;
+  border-radius: 7px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.select-btn i{
+  position: absolute;
+  right: 10px;
+  color: black;
+  transition: transform .5s ease-out;
+}
+
+.container.active .select-btn i{
+  transform: rotate(180deg);
+}
+
+.select-btn button{
+  background: none;
+  border: 0;
+  padding-left: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.box{
+  background: white;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 7px;
+  padding: 10px;
+  height: 350px;
+  overflow: auto;
+  display: none;
+  position: relative;
+}
+
+.container.active .box{
+  display: block;
+}
+
+.form{
+  width: 100%;
+}
+
+.form i{
+  color: #bcbcbc;
+  position: absolute;
+  top: 24px;
+  left: 16px;
+  font-size: 1.2rem;
+}
+
+.form input{
+  background: white;
+  border: 2px solid #02a9d7;
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  outline: 0;
+  padding-left: 30px;
+  font-size: 1.2rem;
+}
+
+.countries{
+  color: black;
+}
+
+.countries li{
+  font-size: 1.3rem;
+  list-style-type: none;
+  padding-left: 10px;
+  margin-top: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.countries li:hover{
+  background: #bcbcbc;
+}

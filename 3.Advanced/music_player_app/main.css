@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: #C6DCE4;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+}
+
+.container{
+  margin: 6vw;
+  padding: 30px 10px;
+  background: white;
+  border-radius: 7px;
+}
+
+.heading{
+  text-align: center;
+}
+
+.heading h2{
+  font-size: 2.5rem;
+}
+
+.heading span{
+  color: gray;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  /* animation: rotateImg 6s linear infinite; */
+}
+
+@keyframes rotateImg{
+  0%{
+    
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.music-control{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.progress{
+  display: flex;
+  flex-direction: column;
+}
+
+.time{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progressDiv{
+  width: 100%;
+  background: whitesmoke;
+  height: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.progressbar{
+  height: 100%;
+  background: black;
+  position: absolute;
+  width: 0;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.fa-play,.fa-pause{
+  background: whitesmoke;
+  box-shadow: 1px 2px 3px #222;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.music-control i{
+  margin: 0 10px;
+  font-size: 1.6rem;
+}
+
+.fa-caret-left,.fa-caret-right{
+  /* font-size: 2rem; */
+}

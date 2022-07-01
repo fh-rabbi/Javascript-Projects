@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300&display=swap');
+/*  
+font-family: 'Koulen', cursive;
+font-family: 'Lato', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+nav{
+  background: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+nav li{
+  list-style-type: none;
+}
+nav span{
+  padding-left: 7px;
+}
+.logo{
+  
+}
+.logo img{
+  width: 30px;
+  color: white;
+  background: red;
+  border-radius: 10px;
+}
+/*  */
+.container{
+  background: indigo;
+  color: white;
+  width: 80vw;
+  height: 60vh;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.songList{
+  display: flex;
+  flex-direction: column;
+}
+
+.songItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: whitesmoke;
+  border-radius: 10px;
+  margin: 10px 0;
+  color: black;
+  font-size: 1rem;
+}
+.player{
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  flex-direction: column;
+}
+.player input{
+  width: 80%;
+}
+.playerControl i{
+  padding: 5px 10px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="theme-color" content="#222">
+ <meta charset="UTF-8">  
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <meta name="author" content="fazle-rabbi">
+ <!-- FONTAWESOME KIT -->
+ <script src="https://kit.fontawesome.com/2982aea746.js" crossorigin="anonymous"></script>
+ <title>Demo Template</title>
+ <link rel="stylesheet" href="css/main.css" title="" type="" />
+ <link rel="stylesheet" href="css/utilities.css" title="" type="" />
+ <link rel="stylesheet" href="css/mobile.css" title="" type="" />
+ <link rel="stylesheet" href="css/desktop.css" title="" type="" />
+</head>
+<body>
+ 
+ 
+ 
+<!-- Js Link -->
+<script src="js/main.js" type="text/javascript" charset="utf-8"></script>  
+</body>
+</html>

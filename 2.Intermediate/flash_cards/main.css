@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+/* 
+font-family: 'Baloo 2', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1:#180A0A;
+  --color2:#F10086;
+}
+
+body{
+  background: #9DD6DF;
+  color: black;
+  font-family: 'Baloo 2', cursive;
+}
+
+.container{
+  margin: 2vw;
+  padding: 10px;
+}
+
+nav{
+  background: var(--color2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav h2{
+  color: white;
+}
+
+nav button{
+  background: var(--color1);
+  height: 40px;
+  padding: 0 8px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/*  */
+.card-creator{
+  margin: 6px 5vw;
+  padding: 10px;
+  background: whitesmoke;
+  border-radius: 7px;
+  transition: .5s ease;
+  display: none;
+}
+
+.showCardCreator{
+  display: block;
+}
+
+label,input{
+  display: block;
+  width: 100%;
+}
+
+input{
+  background: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  outline: 0;
+  padding: 2px 7px;
+}
+
+button{
+  background: black;
+  color: yellow;
+  border: 1px solid yellow;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 5px 14px;
+  margin-top: 10px;
+}
+
+.main{
+  
+}
+
+.card{
+  background: black;
+  color: whitesmoke;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 6px;
+  /* opacity: 0; */
+}
+
+.card:hover{
+  transition: 1s;
+  transform: rotate(360deg);
+}
+
+span{
+  transition: 0.6s;
+  opacity: 0;
+}
+
+.showSpan{
+  opacity: 1;
+  animation: blink .5s ease infinite;
+}
+
+@keyframes blink{
+  0%{
+    transform: translate(0,0);
+  }
+  50%{
+    transform: translate(5px,1px);
+  }
+  100%{
+    transform: translate(-5px,-1px);
+  }
+}

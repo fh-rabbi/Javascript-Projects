@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kalam:wght@300&family=Mali&family=Pangolin&family=Patrick+Hand&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font-family: 'Patrick Hand', cursive; */
+body{
+  background: #c8d6e5;
+  font-family: 'Baloo 2', cursive;
+}
+
+.container{
+  background: #341f97;
+  margin: 5vw;
+  padding: 10px;
+  color: white;
+  border-radius: 7px;
+    h2{
+      color: white;
+    }
+    form{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+        input{
+          width: 80%;
+          /* border: 1px solid white; */
+          background: #c8d6e5;
+          height: 30px;
+          font-size: 1.3rem;
+          border: 0;
+          border-radius: 0;
+          padding: 0 5px;
+          outline: 0;
+          font-weight: bold;
+          font-family: 'Ubuntu', sans-serif;
+        }
+        button{
+          background: #ee5253;
+          color: white;
+          font-weight: bold;
+          width: 15%;
+          border: none;
+          font-size: 1.2rem;
+          text-transform: uppercase;
+        }
+    }
+  .todo-box{
+      .todo-item{
+        background: #ED4C67;
+        padding: 7px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+          p{
+            
+          }
+          button{
+            background: #1dd1a1;
+            border: none;
+            height: 30px;
+            padding: 0 10px;
+            border-radius: 2px;
+            width: 60px;
+          }
+      }
+  }
+}
+
+.error{
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textStrike{
+  text-decoration: Line-through;
+  color: black;
+}

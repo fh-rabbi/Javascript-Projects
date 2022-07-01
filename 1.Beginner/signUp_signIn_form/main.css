@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+}
+body{
+  background: whitesmoke;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  width: 80vw;
+  /* padding: 10px; */
+  height: 420px;
+  background: indianred;
+  border: 5px solid indianred;
+  text-align: center;
+  position: relative;
+}
+.signIn,.signUp{
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+  position: absolute;
+}
+label{
+  display: block;
+  text-align: left;
+  margin: 5px 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+input{
+  height: 40px;
+  outline: 0;
+  border: 2px solid gray;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Sans-Serif;
+  background: black;
+  color: deeppink;
+  border-radius: 4px;
+  width: 100%;
+  padding: 5px 10px;
+}
+.signIn{
+  background: #424242;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signUp{
+  background: #424242;
+  color: white;
+}
+#signinBtn,#signupBtn{
+  background: yellow;
+  color: black;
+  border: none;
+  height: 50px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: Monospace;
+  border-radius: 4px;
+  margin: 10px 0;
+  display: block;
+}
+.forSignIn,.forSignUp{
+  width: 100%;
+  background: black;
+  color: red;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+/*  */
+.signIn{
+  z-index: 5;
+  opacity: 1;
+}
+.signUp{
+  z-index: 4;
+  opacity: 0;
+}
+
+.fade{
+  transition: 0.3s ease;
+}
